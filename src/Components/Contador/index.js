@@ -1,6 +1,7 @@
 import {useState} from "react"
+import "./style.css"
 
-function Contador() {
+export function Contador() {
 
     function somar(){
         setContador(contador+1);
@@ -18,4 +19,3 @@ function Contador() {
     )
 }
 
-export default Contador;

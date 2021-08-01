@@ -1,9 +1,9 @@
-import "./style.css"
-import { useState } from "react"
-import Contador from "./Components/contador";
+import React, { useState } from "react"
+import {Contador} from "./Components/Contador";
+
 
 function App() {
-
+React.useState()
   return (
     <>
     <Contador/>
