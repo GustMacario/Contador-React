@@ -1,9 +1,8 @@
-import React, { useState } from "react"
+
 import {Contador} from "./Components/Contador";
 
 
 function App() {
-React.useState()
   return (
     <>
     <Contador/>
@@ -11,6 +10,7 @@ React.useState()
     <Contador/>
     <Contador/>
     <Contador/>
+    
     </>    
   );
 }
